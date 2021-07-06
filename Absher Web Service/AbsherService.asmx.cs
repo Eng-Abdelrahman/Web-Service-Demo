@@ -21,46 +21,14 @@ namespace Absher_Web_Service
         [WebMethod]
         public AbshirResponseModel AbsherNationalTypeSaudi(long idNo , bool idNoSpecified ,long operatorId ,bool operatorIdSpecified ,string birthDate , string birthDateSpecified)
         {
-            AbshirResponseModel abshirModel = new AbshirResponseModel() 
-            {
-                FirstName = "FirstName FirstName FirstName",
-                NationalId = 458888559969696456,
-                MiddleMame = "MiddleMame MiddleMame MiddleMame",
-                LastName = "LastName LastName LastName",
-                Gender = "M",
-                BirthDateGreogorian = DateTime.Now,
-                BirthDateHijri = "MaritialStatus ",
-                MaritialStatus = "MaritialStatus MaritialStatus ",
-                Nationality = "NationalityNationalityNationality",
-                Occupation = "Occupation",
-                NationalType = NationalType.Saudi
-
-            };
-
-            return abshirModel;
+            return RandomData.RandomDataGenerator();
         }
         
 
         [WebMethod]
         public AbshirResponseModel AbsherNationalTypeNonSaudi(long idNo, bool idNoSpecified, long operatorId, bool operatorIdSpecified)
         {
-            AbshirResponseModel abshirModel = new AbshirResponseModel()
-            {
-                FirstName = "FirstName FirstName FirstName",
-                NationalId = 458888559969696456,
-                MiddleMame = "MiddleMame MiddleMame MiddleMame",
-                LastName = "LastName LastName LastName",
-                Gender = "M",
-                BirthDateGreogorian = DateTime.Now,
-                BirthDateHijri = "MaritialStatus ",
-                MaritialStatus = "MaritialStatus MaritialStatus ",
-                Nationality = "NationalityNationalityNationality",
-                Occupation = "Occupation",
-                NationalType = NationalType.Non_Saudi
-
-            };
-
-            return abshirModel;
+            return RandomData.RandomDataGenerator();
         }
 
 

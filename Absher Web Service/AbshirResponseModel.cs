@@ -18,13 +18,13 @@ namespace Absher_Web_Service
         public string MaritialStatus { get; set; }
         public string Nationality { get; set; }
         public string Occupation { get; set; }
-        public NationalType NationalType { get; set; }
+        public string NationalType { get; set; }
     }
 
 
-    public enum NationalType 
-    {
-        Saudi,
-        Non_Saudi
-    }
+    //public enum NationalType 
+    //{
+    //    Saudi,
+    //    Non_Saudi
+    //}
 }
