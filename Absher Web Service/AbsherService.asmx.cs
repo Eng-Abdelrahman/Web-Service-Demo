@@ -13,13 +13,13 @@ namespace Absher_Web_Service
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
-    // [System.Web.Script.Services.ScriptService]
+    [System.Web.Script.Services.ScriptService]
     public class AbsherService : System.Web.Services.WebService
     {
 
 
         [WebMethod]
-        public AbshirResponseModel AbsherNationalTypeSaudi(long idNo , bool idNoSpecified ,long operatorId ,bool operatorIdSpecified ,string birthDate , string birthDateSpecified)
+        public AbshirResponseModel AbsherNationalTypeSaudi(long idNo , bool idNoSpecified ,long operatorId ,bool operatorIdSpecified ,string birthDate , bool birthDateSpecified)
         {
             return RandomData.RandomDataGenerator();
         }

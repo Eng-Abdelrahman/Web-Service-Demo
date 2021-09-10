@@ -4,18 +4,18 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\GreenZone\Desktop\Absher Web Service Demo</_PublishTargetUrl>
-    <History>True|2021-07-06T12:47:14.4980200Z;</History>
+    <_PublishTargetUrl>C:\Users\GreenZone\Desktop\AbsherWebService</_PublishTargetUrl>
+    <History>True|2021-09-08T07:27:53.7627736Z;True|2021-07-28T13:39:59.1439190+02:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="AbsherService.asmx">
       <publishTime>06/30/2021 12:15:10</publishTime>
     </File>
     <File Include="bin/Absher Web Service.dll">
-      <publishTime>07/06/2021 14:47:14</publishTime>
+      <publishTime>09/08/2021 09:27:53</publishTime>
     </File>
     <File Include="bin/Absher Web Service.pdb">
-      <publishTime>07/06/2021 14:47:14</publishTime>
+      <publishTime>09/08/2021 09:27:53</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>09/05/2018 16:10:50</publishTime>
